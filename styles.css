@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background for the whole page */
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard {
+    max-width: 600px; /* Set a max width */
+    margin: 0; /* Remove auto margin for center alignment */
+    padding: 20px; /* Add some padding */
+    background-color: #007bff; /* Blue background for the dashboard */
+    color: white; /* Change text color to white for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center; /* Center the header */
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #ffffff; /* White background for cards */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.card i {
+    font-size: 40px;
+    color: #007bff; /* Blue color for icons */
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 10px 0;
+    color: #333; /* Keep card title dark for readability */
+}
+
+.card p {
+    color: #666; /* Dark gray for description */
+}
+
+.card ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 10px 0 0; /* Add some margin */
+}
+
+.card ul li {
+    margin: 5px 0; /* Space between list items */
+    display: flex;
+    align-items: center; /* Center icons and text */
+    color: #555; /* Dark gray for text */
+}
+
+.card ul li i {
+    margin-right: 8px; /* Space between icon and text */
+    color: #007bff; /* Match icon color with your theme */
+}
+Key Changes
+Dashboard Background: Changed background-color in the .dashboard class to #007bff (a blue color).
+Text Color: Set color: white; in the .dashboard
+
+h1 {
+    text-align: center; /* Center the header */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #fff; /* White background for cards */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.card i {
+    font-size: 40px;
+    color: #007bff; /* Blue color for icons */
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.card p {
+    color: #666; /* Dark gray for description */
+}
+
+.card ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 10px 0 0; /* Add some margin */
+}
+
+.card ul li {
+    margin: 5px 0; /* Space between list items */
+    display: flex;
+    align-items: center; /* Center icons and text */
+    color: #555; /* Dark gray for text */
+}
+
+.card ul li i {
+    margin-right: 8px; /* Space between icon and text */
+    color: #007bff; /* Match icon color with your theme */
+}
